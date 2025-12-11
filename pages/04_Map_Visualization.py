@@ -7,6 +7,7 @@ from core.utils import (
     
 )
 import core.map_plot as map_plot
+from core.data_variables import TRAFFIC_VIOLATION_COLUMNS
 
 # ------------------------------
 # PAGE CONFIG
@@ -40,6 +41,10 @@ except Exception as e:
 # ------------------------------
 st.title("🗺️ Map Visualization")
 st.markdown("Visualize traffic violation data across India.")
+
+if set(TRAFFIC_VIOLATION_COLUMNS).issubset(set(df.columns)) is False:
+    st.error("No traffic violation columns found in the dataset.")
+    st.stop()
 
 # Ensure Date column is datetime and extract years
 min_year, max_year = 2000, 2024

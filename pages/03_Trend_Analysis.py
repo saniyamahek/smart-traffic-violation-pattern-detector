@@ -331,7 +331,7 @@ def render_plot_item(title, insight, plot_func, team_member_name, df_local, key_
                     if fig:
                         st.pyplot(fig, width='stretch')
                     else:
-                        st.write("Plot could not be generated.")
+                        st.write("Plot could not be generated with the selected data.")
                 except Exception as e:
                     st.error(f"Error generating plot: {e}")
             

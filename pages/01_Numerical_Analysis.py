@@ -21,7 +21,7 @@ st.markdown("Comprehensive statistical breakdown of the dataset.")
 quick_navigator = """
     <style>
         .nav-container {
-            background-color: transparent;
+            background-color: linear-gradient(135deg, rgba(99, 102, 241, 0.95), rgba(168, 85, 247, 0.95));
             backdrop-filter: blur(10px);
             padding: 16px;
             border-radius: 12px;
