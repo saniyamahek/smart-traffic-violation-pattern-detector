@@ -31,7 +31,7 @@ This document tracks the detailed chronological progress of the **CollisionX Ind
   * **Documentation:** **Rakshitha** updated the inline docstrings for all new utility functions.
 
 * **2025-11-18:**
-  * **UI Polish:** **Ishwari** and **Harika** refactored the HTML/CSS components to ensure a responsive design on mobile devices.
+  * **UI Polish:** **Ishwari** and **Harika** refactored the HTML/CSS components to ensure a responsive design.
   * **Page Routing:** **Poojitha** streamlined the Sidebar navigation for better user experience.
   * **Accessibility:** **Rakshitha** audited the color contrast ratios of the charts to ensure they met WCAG standards.
   * **Performance:** **Vijay G** implemented memoization for the sidebar data loader to prevent reloading on every interaction.
