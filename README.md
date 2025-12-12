@@ -32,31 +32,69 @@ This project is a Streamlit web application designed to analyze traffic violatio
 1. **Clone the repository:**
 
     ```bash
-   git clone https://github.com/saniyamahek/smart-traffic-violation-pattern-detector.git
-   cd smart-traffic-violation-pattern-detector
-
+    git clone https://github.com/saniyamahek/smart-traffic-violation-pattern-detector.git
+    cd smart-traffic-violation-pattern-detector
     ```
 
-2. **Choose your package manager:**
+---
 
-    ---
+2. **Create and activate a virtual environment (Recommended):**
 
-   ### 🌟 Primary Method: Using `uv` (Recommended)
+    ```bash
+    python -m venv .venv
+    ```
 
-    1. **Create and activate a virtual environment:**
+    **Activate the environment:**
 
+    - **Windows PowerShell**
         ```bash
-        # Create a virtual environment
-        uv sync
+        .\.venv\Scripts\Activate.ps1
         ```
 
-    2. **Run the application:**
-
+    - **Windows CMD**
         ```bash
-        uv run streamlit run app.py
+        .\.venv\Scripts\activate
         ```
 
-    ---
+    - **macOS / Linux**
+        ```bash
+        source .venv/bin/activate
+        ```
+
+---
+
+3. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+4. **Run the Streamlit Application:**
+
+    ```bash
+    streamlit run app.py
+    ```
+
+The application will open in your browser.
+
+---
+
+## 🌟 Optional Method: Using `uv` (If installed)
+
+1. **Sync and create environment automatically:**
+
+    ```bash
+    uv sync
+    ```
+
+2. **Run the application:**
+
+    ```bash
+    uv run streamlit run app.py
+    ```
+
 
    ### 🐢 Alternative Method: Using `pip`
 
