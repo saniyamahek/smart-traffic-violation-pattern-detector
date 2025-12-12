@@ -95,35 +95,6 @@ The application will open in your browser.
     uv run streamlit run app.py
     ```
 
-
-   ### 🐢 Alternative Method: Using `pip`
-
-    1. **Create and activate a virtual environment:**
-
-        ```bash
-        python -m venv .venv
-        
-        # Activate the virtual environment
-        # On Windows (Command Prompt)
-        .\.venv\Scripts\activate
-        # On Windows (PowerShell)
-        .\.venv\Scripts\Activate.ps1
-        # On macOS/Linux
-        source .venv/bin/activate
-        ```
-
-    2. **Install dependencies:**
-
-        ```bash
-        pip install .
-        ```
-
-    3. **Run the application:**
-
-        ```bash
-        streamlit run app.py
-        ```
-
 ## 📂 Project Structure
 
 ```text
